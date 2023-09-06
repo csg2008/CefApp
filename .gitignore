@@ -1,0 +1,16 @@
+x64/
+.vs/
+*.ncb
+*.db
+*.opendb
+*.suo
+*.user
+*.aps
+*.sdf
+*.opensdf
+
+*.dll
+*.exe
+*.lib
+*.pdb
+*.log
