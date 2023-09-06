@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tests\cefsimple\simple_app.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\cefsimple\simple_handler.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\cefsimple\cefsimple_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\cefsimple\simple_handler_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tests\cefsimple\simple_app.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\cefsimple\simple_handler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\cefsimple\resource.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tests\cefsimple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tests\cefsimple\cefsimple.rc">
+      <Filter>cefsimple</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cefsimple">
+      <UniqueIdentifier>{470C2408-7809-33E4-AAA1-E9B3C6DF2E90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
